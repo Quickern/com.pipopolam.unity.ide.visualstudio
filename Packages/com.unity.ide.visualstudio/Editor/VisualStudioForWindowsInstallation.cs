@@ -42,7 +42,7 @@ namespace Microsoft.Unity.VisualStudio.Editor
 		};
 
 		private static string _vsWherePath = null;
-		private static readonly IGenerator _generator = new LegacyStyleProjectGeneration();
+		private static readonly IGenerator _generator = new SdkStyleProjectGeneration();
 
 		public override bool SupportsAnalyzers
 		{
